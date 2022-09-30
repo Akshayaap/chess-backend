@@ -19,8 +19,17 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.projectlombok:lombok:1.18.24'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-test:2.7.3'
 	implementation 'mysql:mysql-connector-java:8.0.30'
+	implementation 'org.springframework:spring-messaging:5.3.23'
+
+	implementation "org.springframework.boot:spring-boot-starter-websocket"
+	implementation 'org.webjars:sockjs-client:1.5.1'
+	implementation 'org.webjars:stomp-websocket:2.3.4'
+	implementation 'org.webjars:bootstrap:5.2.0'
+	implementation 'org.webjars:jquery:3.6.1'
+	implementation 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4'
 }
 
 
